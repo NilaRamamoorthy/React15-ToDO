@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useLocalStorage } from "./hooks/useLocalStorage";
-import TodoForm from "./components/TodoForm";
-import TodoList from "./components/TodoList";
+import { useLocalStorage } from "./hooks/useLocalStorage.js";
+import TodoForm from "./components/TodoForm.jsx";
+import TodoList from "./components/TodoList.jsx";
 import "./index.css";
 
 const App = () => {
